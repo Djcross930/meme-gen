@@ -13,6 +13,35 @@
   }
 }
 
+.title {
+  font-weight: 700;
+  font-size: 20.75px;
+  margin-right: auto;
+}
+
+.project {
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.TrollFace {
+  height: 26.22px;
+  width: 31.31px;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.NavBar {
+  width: 550px;
+  height: 65px;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  margin: auto;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  color: white;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -32,6 +61,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

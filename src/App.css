@@ -23,6 +23,7 @@ body {
   margin: auto;
   background-color: white;
   padding-bottom: 36px;
+  border-radius: 5px;
 }
 
 .title {
@@ -52,11 +53,15 @@ body {
 .buttonOne {
   width: 230px;
   margin-right: 9px;
+  border: 1px solid D5D4D8;
+  text-indent: 5px;
 }
 
 .buttonTwo {
   width: 230px;
   margin-left: 8px;
+  border: 1px solid D5D4D8;
+  text-indent: 5px;
 }
 
 .project {

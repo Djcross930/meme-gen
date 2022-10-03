@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+body {
+  background-color: black;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -17,6 +21,25 @@
   font-weight: 700;
   font-size: 20.75px;
   margin-right: auto;
+}
+
+.buttons {
+  padding-top: 36px;
+  height: 100%;
+  width: 550px;
+  margin: auto;
+  background-color: white;
+  padding-bottom: 15px;
+}
+
+.buttonOne {
+  width: 230px;
+  margin-right: 9px;
+}
+
+.buttonTwo {
+  width: 230px;
+  margin-left: 8px;
 }
 
 .project {

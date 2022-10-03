@@ -17,10 +17,27 @@ body {
   }
 }
 
+.LastButton {
+  height: 100%;
+  width: 550px;
+  margin: auto;
+  background-color: white;
+}
+
 .title {
   font-weight: 700;
   font-size: 20.75px;
   margin-right: auto;
+}
+
+.generate {
+  width: 477px;
+  height: 40 px;
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  padding-bottom: 36px;
 }
 
 .buttons {

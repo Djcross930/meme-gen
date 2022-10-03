@@ -22,14 +22,17 @@ body {
   width: 550px;
   margin: auto;
   background-color: white;
-  padding-bottom: 36px;
-  border-radius: 5px;
 }
 
 .title {
   font-weight: 700;
   font-size: 20.75px;
   margin-right: auto;
+}
+
+.RandomImage {
+  max-width: 100%;
+  padding: 36px;
 }
 
 .generate {

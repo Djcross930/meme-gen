@@ -1,7 +1,9 @@
 
 export default function MyButtons() {
   return <div className="buttons">
-    <input className="buttonOne" type="text" />
-    <input className="buttonTwo" type="text" />
+    <form>
+      <input placeholder="Top text" className="buttonOne" type="text" />
+      <input placeholder="Bottom Text" className="buttonTwo" type="text" />
+    </form>
   </div>
 }

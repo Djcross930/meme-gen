@@ -22,6 +22,7 @@ body {
   width: 550px;
   margin: auto;
   background-color: white;
+  padding-bottom: 36px;
 }
 
 .title {
@@ -37,7 +38,6 @@ body {
   color: white;
   font-weight: 700;
   font-size: 16px;
-  padding-bottom: 36px;
 }
 
 .buttons {

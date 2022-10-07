@@ -9,7 +9,7 @@ export default function Meme() {
     randomImage: "http://i.imgflip.com/1bij.jpg"
   })
 
-  const [allMemeImages, setAllMemeImages] = React.useState(memesData)
+  const [allMemeImages] = React.useState(memesData)
 
   function getMemeImage() {
     const memesArray = allMemeImages.data.memes
@@ -21,6 +21,12 @@ export default function Meme() {
     }))
   }
   return <div className="LastButton">
+    <div className="buttons">
+      <form>
+        <input placeholder="Top text" className="buttonOne" type="text" />
+        <input placeholder="Bottom Text" className="buttonTwo" type="text" />
+      </form>
+    </div>
     <button onClick={getMemeImage} className="generate">Create a new meme image 🖼</button>
     <img className="RandomImage" src={meme.randomImage} alt="Meme" />
   </div>

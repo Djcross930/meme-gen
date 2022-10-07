@@ -17,12 +17,6 @@ body {
   }
 }
 
-.LastButton {
-  height: 100%;
-  width: 550px;
-  margin: auto;
-  background-color: white;
-}
 
 .title {
   font-weight: 700;
@@ -32,7 +26,7 @@ body {
 
 .RandomImage {
   max-width: 100%;
-  padding: 36px;
+  border-radius: 3px;
 }
 
 .generate {
@@ -53,11 +47,60 @@ body {
   padding-bottom: 15px;
 }
 
+.lastThing {
+  width: 550px;
+  margin: auto;
+  background-color: white;
+
+}
+
+.meme--text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:
+    2px 2px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    0 2px 0 #000,
+    2px 0 0 #000,
+    0 -2px 0 #000,
+    -2px 0 0 #000,
+    2px 2px 5px #000;
+}
+
 .buttonOne {
   width: 230px;
   margin-right: 9px;
   border: 1px solid D5D4D8;
   text-indent: 5px;
+}
+
+.bottom {
+  bottom: 20px;
+}
+
+.top {
+  top: 20px;
+}
+
+.meme {
+  height: 100%;
+  width: 550px;
+  margin: auto;
+  background-color: white;
+  position: relative;
+  padding: 36px;
 }
 
 .buttonTwo {
